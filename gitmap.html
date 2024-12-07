@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empower Nave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Empower Nave</h1>
+        <p>Your guide to accessible routes, safety, and independence.</p>
+    </header>
+    
+    <!-- Navigation Menu -->
+    <nav role="navigation">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#map">Interactive Map</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <main role="main">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Empower Nave is an AI-powered navigation platform designed to provide safe, accessible routes tailored for individuals with disabilities.</p>
+        </section>
+        
+        <!-- Features Section -->
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Wheelchair-friendly routes</li>
+                <li>Real-time updates on construction and barriers</li>
+                <li>Nearby facilities like restrooms, ramps, and elevators</li>
+            </ul>
+        </section>
+        
+        <!-- Interactive Map Section -->
+        <section id="map">
+            <h2>Interactive Map</h2>
+            <p>Explore accessible routes in real time!</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345095527!2d144.95592831531684!3d-37.81720997975155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5777d7b508b6d0b!2sMelbourne%20CBD!5e0!3m2!1sen!2sau!4v1638786599054!5m2!1sen!2sau"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="https://example.com/form-handler" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Empower Nave. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
